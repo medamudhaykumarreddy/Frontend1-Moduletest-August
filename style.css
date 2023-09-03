@@ -36,6 +36,13 @@ nav {
 .logo-title {
   border-right: 1px solid #dadada;
   padding-right: 8px;
+  color: #012555;
+font-family: Bai Jamjuree;
+font-size: 21.714px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 175% */
+letter-spacing: -0.869px;
 }
 
 .nav-list>li>a {
@@ -62,7 +69,6 @@ nav {
 
 header {
   color: #fff;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
@@ -70,6 +76,10 @@ header {
   letter-spacing: 0.28px;
   text-align: center;
   background-color: #2f80ed;
+  display: flex;
+padding: 8px 562px;
+align-items: flex-start;
+gap: 10px;
 }
 
 /* styling hero section */
@@ -85,7 +95,6 @@ header {
 
 .hero>div:nth-child(1)>h1:nth-child(1) {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
@@ -96,7 +105,6 @@ header {
 
 .hero>div:nth-child(1)>h1:nth-child(2)>span {
   color: #2f80ed;
-  font-family: ABeeZee;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
@@ -106,7 +114,6 @@ header {
 
 .hero>div:nth-child(1)>h1:nth-child(2) {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
@@ -117,7 +124,6 @@ header {
 
 .hero>div:nth-child(1)>p {
   color: #595959;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -166,7 +172,6 @@ header {
   width: 291px;
   color: #2b2f34;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 32px;
   font-style: italic;
   font-weight: 400;
@@ -178,7 +183,6 @@ header {
   width: 278px;
   color: #818d9d;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -217,7 +221,6 @@ header {
   border-radius: 8px;
   background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
   color: #fff;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -232,7 +235,6 @@ header {
   margin-top: 3px;
   color: #818d9d;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -241,7 +243,6 @@ header {
 
 .form>p:last-child>span {
   color: #2f80ed;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -263,7 +264,6 @@ header {
 
 .courses-offered>div:first-child>p {
   text-align: center;
-  font-family: ABeeZee;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
@@ -279,7 +279,6 @@ header {
 .courses-offered>div:first-child>h1 {
   color: #2f80ed;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -303,7 +302,6 @@ header {
 
 .card1>h1 {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 26px;
   font-style: italic;
   font-weight: 400;
@@ -318,7 +316,6 @@ header {
   border-radius: 7px;
   background: #e0f3ff;
   color: #1d78b0;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -328,7 +325,6 @@ header {
 
 .card1>p {
   color: #565656;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -342,7 +338,6 @@ header {
 
 .details>div>p:first-child {
   color: #000;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -352,7 +347,6 @@ header {
 
 .details>div>p:last-child {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -371,7 +365,6 @@ header {
   border: 1px solid #2f80ed;
   background: #fff;
   color: #2f80ed;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -389,7 +382,6 @@ header {
   border-radius: 8px;
   background: #2f80ed;
   color: #fff;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -409,7 +401,6 @@ header {
 
 .card2>h1 {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 26px;
   font-style: italic;
   font-weight: 400;
@@ -424,7 +415,6 @@ header {
   border-radius: 7px;
   background: #ffeed8;
   color: #965400;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -434,7 +424,6 @@ header {
 
 .card2>p {
   color: #565656;
-  font-family: ABeeZee;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -448,7 +437,6 @@ header {
 
 .details>div>p:first-child {
   color: #000;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -458,7 +446,6 @@ header {
 
 .details>div>p:last-child {
   color: #2b2f34;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -477,7 +464,6 @@ header {
   border: 1px solid #2f80ed;
   background: #fff;
   color: #2f80ed;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -495,7 +481,6 @@ header {
   border-radius: 8px;
   background: #2f80ed;
   color: #fff;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -519,7 +504,6 @@ header {
 
 .hiring-partners>div:nth-child(1)>p:first-child {
   text-align: center;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -535,7 +519,6 @@ header {
 .hiring-partners>div:nth-child(1)>h1 {
   color: #2b2f34;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
@@ -545,7 +528,6 @@ header {
 
 .hiring-partners>div:nth-child(1)>h1>span {
   color: #2f80ed;
-  font-family: ABeeZee;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
@@ -555,7 +537,6 @@ header {
 
 .hiring-partners>div:nth-child(1)>p:last-child {
   color: #595959;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -596,7 +577,6 @@ header {
 .students>h1 {
   color: #2b2f34;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 42px;
   font-style: italic;
   font-weight: 400;
@@ -607,7 +587,6 @@ header {
 .students>p {
   color: #595959;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -658,7 +637,6 @@ header {
 
 .profile>div>h4 {
   color: #000;
-  font-family: ABeeZee;
   font-size: 22px;
   font-style: italic;
   font-weight: 400;
@@ -668,7 +646,6 @@ header {
 .profile>div>p {
   color: #676767;
   text-align: center;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: normal;
   font-weight: 602;
@@ -677,7 +654,6 @@ header {
 
 .para {
   color: #676767;
-  font-family: ABeeZee;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -686,7 +662,6 @@ header {
 
 .date {
   color: #676767;
-  font-family: ABeeZee;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
