@@ -1,5 +1,6 @@
 
 *
+/* Brand Icons */
 .navbar-center{
 display: flex;
 width: 1536px;
@@ -14,12 +15,14 @@ align-items: center;
 gap: 10px;
 }
 
+/* NavbarSection */
 .navbar-collapse{
 display: flex;
 align-items: flex-end;
 gap: 10px;
 }
 
+/* LoginButton */
 .d-flex{
 color:#2F80ED;
 font-size: 14px;
@@ -35,9 +38,9 @@ border-radius: 8px;
 border: 2px solid #2F80ED;
 }
 
-.hero-section1{
+/* Header2 */
+.next-Batch{
 color: #FFF;
-font-family: ABeeZee;
 font-size: 14px;
 font-style: italic;
 font-weight: 400;
@@ -49,4 +52,50 @@ width: 1536px;
 padding: 8px 562px;
 align-items: flex-start;
 gap: 10px;
+}
+
+/* hero-section1 */
+.launch-text{
+color:#2B2F34;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: -0.75px;
+width: 674px;
+height: 65px;
+padding-top: 112px;
+padding-left: 76px;
+}
+
+.small-section{
+padding-top: 20px;
+width: 492px;
+font-family: ABeeZee;
+height:auto;
+color:#595959;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0.36px;
+}
+
+/* features section */
+.features{
+    padding-top: 35px;
+    width: 711px;
+    height: 77px;
+    padding: 15px 20px;
+    gap: 34px;
+    border-radius: 8px;
+  
+
+}
+
+.love{
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
 }
